@@ -1,8 +1,12 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,  
-  "start": "npm run start",
+  "private": true,
+  "main": "server.js",
+  "engines": { 
+    "npm": "9.3.0",
+    "node": "18.13.0" 
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,7 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "heroku-postbuild": "npm install",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
