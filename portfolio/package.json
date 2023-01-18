@@ -1,15 +1,12 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://jorgellitra.github.io/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "private": true,  
+  "start": "npm run start",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^4.0.0",
     "jquery": "^3.6.3",
     "pure-react-carousel": "^1.30.1",
     "react": "^18.2.0",
