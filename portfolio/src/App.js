@@ -6,12 +6,14 @@ import yo from './img/yo.jpg'
 import procedural from './img/procedural.png'
 import fguys from './img/fguys.png'
 import dialogue from './img/dialogue.png'
+import dh from './img/dh.png'
 import rpg from './img/rpg.png'
 import pongv from './videos/pong.mkv'
+import dialoguev from './videos/dialogue.mov'
 import fallguys from './videos/fallguys.mkv'
 import proceduralv from './videos/procedural.mkv'
 import rpgv from './videos/rpg.mp4'
-import dh1 from './videos/dh1.mkv'
+import dhv from './videos/dh.mov'
 import React from 'react'; 
 
 const data = [{
@@ -51,7 +53,7 @@ const data = [{
   " programar un inventario con drag and drop, crear un sistema de guardado dinámico serializable y muy fácilmente extensible... En General, es en el curso en el que más aprendí " + 
   " de programación en Unity.",
   img: dialogue,
-  video: pongv
+  video: dialoguev
 },{
   id: 5,
   title:"Create an RPG Game in Unity",
@@ -64,8 +66,8 @@ const data = [{
   title:"Dimensional Hike",
   text: "Proyecto en el que actualmente estoy trabajando. Se trata de un juego en 2D y 3D, en el que tendrás que ir resolviendo puzzles y plataformas. Me estoy encargando " +
   " de hacer toda la programación del juego en base a lo que ya he aprendido en los cursos y además añadiendo nuevos conceptos de un juego en 2D que nunca antes había visto.",
-  img: dh1,
-  video: pongv
+  img: dh,
+  video: dhv
 }];
    
 function App() {
