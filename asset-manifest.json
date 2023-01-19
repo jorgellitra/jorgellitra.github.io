@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e846b37.css",
+    "main.js": "/static/js/main.9659a462.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/rpg.mp4": "/static/media/rpg.2f9e8919bf4abbc0f050.mp4",
+    "static/media/fallguys.mkv": "/static/media/fallguys.ec55631b06043de7b3f9.mkv",
+    "static/media/dh1.mkv": "/static/media/dh1.fa776f2142ac4bdcd7b2.mkv",
+    "static/media/rpg.png": "/static/media/rpg.d43597493b17a4d10f33.png",
+    "static/media/pong.mkv": "/static/media/pong.af0853c516232193de01.mkv",
+    "static/media/dialogue.png": "/static/media/dialogue.c45b62d226031a1a9298.png",
+    "static/media/procedural.mkv": "/static/media/procedural.71ad3c84ae7e470da4f5.mkv",
+    "static/media/fguys.png": "/static/media/fguys.1a55adc983642e5d364a.png",
+    "static/media/bg.jpg": "/static/media/bg.09237b6757135ba054a0.jpg",
+    "static/media/pong.png": "/static/media/pong.3ab60ce9dd6e8902c54b.png",
+    "static/media/procedural.png": "/static/media/procedural.010a0c43160f52917e1c.png",
+    "static/media/yo.jpg": "/static/media/yo.51f321d4e4f2f90590c7.jpg",
+    "index.html": "/index.html",
+    "main.4e846b37.css.map": "/static/css/main.4e846b37.css.map",
+    "main.9659a462.js.map": "/static/js/main.9659a462.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e846b37.css",
+    "static/js/main.9659a462.js"
+  ]
+}
