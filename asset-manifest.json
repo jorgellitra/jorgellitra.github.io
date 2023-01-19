@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e846b37.css",
-    "main.js": "/static/js/main.9659a462.js",
+    "main.css": "/static/css/main.b3607962.css",
+    "main.js": "/static/js/main.fc78a395.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/rpg.mp4": "/static/media/rpg.2f9e8919bf4abbc0f050.mp4",
     "static/media/fallguys.mkv": "/static/media/fallguys.ec55631b06043de7b3f9.mkv",
@@ -16,12 +16,12 @@
     "static/media/procedural.png": "/static/media/procedural.010a0c43160f52917e1c.png",
     "static/media/yo.jpg": "/static/media/yo.51f321d4e4f2f90590c7.jpg",
     "index.html": "/index.html",
-    "main.4e846b37.css.map": "/static/css/main.4e846b37.css.map",
-    "main.9659a462.js.map": "/static/js/main.9659a462.js.map",
+    "main.b3607962.css.map": "/static/css/main.b3607962.css.map",
+    "main.fc78a395.js.map": "/static/js/main.fc78a395.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e846b37.css",
-    "static/js/main.9659a462.js"
+    "static/css/main.b3607962.css",
+    "static/js/main.fc78a395.js"
   ]
 }
