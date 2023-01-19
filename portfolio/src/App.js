@@ -19,9 +19,10 @@ import React from 'react';
 const data = [{
   id: 0,
   title: "Sobre mi",
-  text: "He trabajado durante 3 años, hasta el 2022 como desarrollador web y de aplicaciones pero desde que hice unas practicas de empresa " +
-  " de realidad virtual en Unity, se me había quedado una espinita clavada sobre el desarrollo de videojuegos, así que en ese mismo año decicí " +
-  "dejar atrás la programación web y dedicarme en exclusiva a desarrollar videojuegos en Unity, he hecho esta página web para mostrarte un poco mi camino",
+  text: "Te presento mi portfolio. Mi nombre es Jorge Quintana Llitrá y tengo un grado universitario de Ingeniería informática en la Universidad de Las Palmas de Gran Canaria." +
+  "Mi situación laboral actual es desempleado porque mi objetivo principal consiste en dedicarme profesionalmente a desarrollar videojuegos. Por tanto, actualmente estoy formándome para conseguir mi objetivo." +
+  "Desde 2019 a 2022 he trabajado como desarrollador web/aplicaciones y he realizado prácticas de empresa en una compañia que desarrollaba un juego de realidad virtual en Unity."+
+  "Gracias a ello mi interés acerca del desarrollo de videojuegos aumentó y por ello estoy aprendiendo. En este portfolio he resumido parte de mi formación que quiero mostrar.",
   img: yo,
   icon: <MdOutlinePersonOutline key={0} className='w-[100px] h-full inline-block' ></MdOutlinePersonOutline> 
 },{
@@ -35,37 +36,36 @@ const data = [{
 },{
   id: 2,
   title:"Fall Guys Character Controller",
-  text: "Proyecto en el cual recreé las mecánicas principales de Fall Guys, tambíen fue la primera vez que animé un personaje y cambié el modelado" +
+  text: "Proyecto en el cual recreé las mecánicas principales de Fall Guys. También fue la primera vez que animé un personaje y cambié el modelado" +
   " de uno ya existente. Mecánicas: Doble salto hacia adelante, agarrar a un personaje, cámara 3D circular, diferentes tipos de trampas...",
   img: fguys,
   video: fallguys
 },{
   id: 3,
   title:"Procedural Map",
-  text: "Diseñé diferentes habitaciones que se conectaban de diferente forma y luego le añadí una serie de reglas que hacen que se cree un mapa " +
-  "diferente para cada nivel, pudiendo cambiar los porcentajes de aparición de cada tipo de habitación. Aprendí las bases para hacer un mapa procedural.",
+  text: "En esta parte de la formación, he diseñado diferentes habitaciones que se conectaban entre sí por los cuatro lados. Luego añadí una serie de reglas que hacen que se cree un mapa " +
+  "diferente para cada nivel, pudiendo cambiar los porcentajes de aparición de cada tipo de habitación. Todo esto me sirvió para aprender las bases necesarias y construir así un mapa procedural.",
   img: procedural,
   video: proceduralv
 },{
   id: 4,
   title:"Unity Dialogue & Quests: Intermediate C# Game Coding",
-  text: "Curso de pago donde me enseñaron a como hacer Scriptables Objects, a como crear una ventana totalmente desde 0 en Unity (en este caso para hacer díalogos)," +
-  " programar un inventario con drag and drop, crear un sistema de guardado dinámico serializable y muy fácilmente extensible... En General, es en el curso en el que más aprendí " + 
-  " de programación en Unity.",
+  text: "Curso certificado donde aprendí a hacer Scriptables Objects, crear una ventana totalmente desde 0 en Unity (en este caso para hacer díalogos)," +
+  " programar un inventario con drag and drop, crear un sistema de guardado dinámico serializable y muy fácilmente extensible. ",
   img: dialogue,
   video: dialoguev
 },{
   id: 5,
   title:"Create an RPG Game in Unity",
-  text: "En este último curso aprendí a crear un juego entero de RPG, cogía modelados de contenido descargabla gratuito he iba organizando el proyecto y " +
-  "programando sus funcionalidades. Aprendía a diseñar un nivel con terreno, a tener en cuenta el rendimiento de la iluminación, al sistema de combate de un RPG...",
+  text: "En este último curso aprendí a crear un juego entero de RPG. Durante el curso, he utilizado modelados de contenido descargable y ello me ayudó a organizar el proyecto y " +
+  "programar sus funcionalidades. Aprendía a diseñar un nivel con terreno, a tener en cuenta el rendimiento de la iluminación, al sistema de combate de un RPG, etc.",
   img: rpg,
   video: rpgv
 },{
   id: 6,
   title:"Dimensional Hike",
-  text: "Proyecto en el que actualmente estoy trabajando. Se trata de un juego en 2D y 3D, en el que tendrás que ir resolviendo puzzles y plataformas. Me estoy encargando " +
-  " de hacer toda la programación del juego en base a lo que ya he aprendido en los cursos y además añadiendo nuevos conceptos de un juego en 2D que nunca antes había visto.",
+  text: "Proyecto en el que actualmente estoy trabajando. Se trata de un juego en 2D y 3D en el que tendrás que ir resolviendo puzzles y pasar entre distintos obstáculos. Mi trabajo consiste en " +
+  " desarrollar toda la programación del juego en base a lo que ya he aprendido en los cursos y mi propia formación personal.",
   img: dh,
   video: dhv
 }];
