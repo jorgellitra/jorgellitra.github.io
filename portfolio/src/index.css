@@ -22,6 +22,14 @@ body {
 
 .mini .carousel__slider-tray--horizontal { 
   width: 100% !important; 
+}
+
+.carousel__dot img {
+  filter: grayscale(100%);
+} 
+
+.carousel__dot img:hover {
+  filter: grayscale(0%);
 } 
 
 code {

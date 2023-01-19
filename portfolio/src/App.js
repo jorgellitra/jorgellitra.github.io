@@ -21,7 +21,7 @@ const data = [{
   " de realidad virtual en Unity, se me había quedado una espinita clavada sobre el desarrollo de videojuegos, así que en ese mismo año decicí " +
   "dejar atrás la programación web y dedicarme en exclusiva a desarrollar videojuegos en Unity, he hecho esta página web para mostrarte un poco mi camino",
   img: yo,
-  icon: <MdOutlinePersonOutline key={0} className='shadow-md w-[100px] h-full inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300' ></MdOutlinePersonOutline> 
+  icon: <MdOutlinePersonOutline key={0} className='w-[100px] h-full inline-block' ></MdOutlinePersonOutline> 
 },{
   id: 1,
   title:"Pong Online",
@@ -71,7 +71,7 @@ const data = [{
 function App() {
   const contentSlider = data.map((item) => {
  
-    let content = <img className='shadow-md inline-block p-2' alt='' src={item.img} /> 
+    let content = <img className='rounded-lg shadow-md transition-all' alt='' src={item.img} /> 
 
     if (item.video !== undefined) {
       content = <video src={item.video} controls="controls"/>
@@ -79,13 +79,13 @@ function App() {
      
     return <Slide index={item.id} key={item.id} >
       <div className='flex justify-center m-4'>
-        <div className="w-full md:w-1/2 flex flex-col justify-center items-center"> 
+        <div className="w-full md:w-1/3 flex flex-col justify-center"> 
           <div className='containerMedia' >
             {content}
           </div>
         </div> 
-        <div className="w-full md:w-1/3 ml-3 flex flex-col justify-center items-left"> 
-          <h1 className='font-bold' >{item.title}</h1>
+        <div className="w-full md:w-1/4 ml-3 flex flex-col justify-start"> 
+          <h1 className='text-2xl font-bold' >{item.title}</h1>
           <span className='mt-5 break-normal ' >
             {item.text}
           </span>
@@ -95,22 +95,23 @@ function App() {
   })
  
   const content = data.map((item) => {
-    let result = item.icon ??  <img key={item.id} className='h-[100px]' alt='' src={item.img} />;
+    let result = item.icon ??  <img key={item.id} alt='' src={item.img} />;
 
-    return (<Dot slide={item.id}>{result}</Dot>);
-  })  
-
+    return (<Dot className='w-[150px] h-[100px] scale-[0.75] rounded-lg shadow-md transition-all' 
+    slide={item.id}>{result}</Dot>);
+  })   
   return ( 
     <div> 
       <div> 
         <CarouselProvider
-          className='mt-40 mb-20'
+          className='mt-40 mb-40'
           naturalSlideWidth={40}
           naturalSlideHeight={50}
           isIntrinsicHeight={true} 
           totalSlides={contentSlider.length}
         >
-          <Slider >
+          <Slider 
+          className='mb-40'>
             {contentSlider}
           </Slider> 
           <div className='w-full flex justify-center items-center space-x-4'>
