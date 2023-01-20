@@ -1,5 +1,6 @@
 import { CarouselProvider, Slider, Slide, Dot } from 'pure-react-carousel';   
 import {MdOutlinePersonOutline} from 'react-icons/md';
+import {BsLinkedin, BsFillFileEarmarkPdfFill} from 'react-icons/bs';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import pongi from './img/pong.png' 
 import yo from './img/yo.jpg' 
@@ -14,6 +15,8 @@ import fallguys from './videos/fallguys.mkv'
 import proceduralv from './videos/procedural.mkv'
 import rpgv from './videos/rpg.mp4'
 import dhv from './videos/dh.mov'
+import cven from './cvs/CVEnglish.pdf'
+import cves from './cvs/CVEspañol.pdf' 
 import React from 'react'; 
 
 const data = [{
@@ -24,6 +27,9 @@ const data = [{
   "Desde 2019 a 2022 he trabajado como desarrollador web/aplicaciones y he realizado prácticas de empresa en una compañia que desarrollaba un juego de realidad virtual en Unity."+
   "Gracias a ello mi interés acerca del desarrollo de videojuegos aumentó y por ello estoy aprendiendo. En este portfolio he resumido parte de mi formación que quiero mostrar.",
   img: yo,
+  cv: <a href={cves} title="CV Español" download><BsFillFileEarmarkPdfFill className='w-[20px] h-[20px]'></BsFillFileEarmarkPdfFill></a>,
+  cve: <a href={cven} title="CV English" download><BsFillFileEarmarkPdfFill className='w-[20px] h-[20px]'></BsFillFileEarmarkPdfFill></a>,
+  linkdn: <a href={"www.linkedin.com/in/jorge-quintana-llitrá-00b66017b"} target="_blank"><BsLinkedin className='w-[20px] h-[20px]'></BsLinkedin></a>, 
   icon: <MdOutlinePersonOutline key={0} className='w-[100px] h-full inline-block' ></MdOutlinePersonOutline> 
 },{
   id: 1,
@@ -91,6 +97,11 @@ function App() {
           <span className='mt-5 break-normal ' >
             {item.text}
           </span>
+          <div className="w-full mt-3 flex justify-center space-x-2">  
+            {item.cv}
+            {item.cve}
+            {item.linkdn}
+          </div>  
         </div> 
       </div>
     </Slide> 
