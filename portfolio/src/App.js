@@ -29,7 +29,7 @@ const data = [{
   img: yo,
   cv: <a href={cves} title="CV Español" download><BsFillFileEarmarkPdfFill className='w-[20px] h-[20px]'></BsFillFileEarmarkPdfFill></a>,
   cve: <a href={cven} title="CV English" download><BsFillFileEarmarkPdfFill className='w-[20px] h-[20px]'></BsFillFileEarmarkPdfFill></a>,
-  linkdn: <a href={"www.linkedin.com/in/jorge-quintana-llitrá-00b66017b"} target="_blank" rel="noreferrer"><BsLinkedin className='w-[20px] h-[20px]'></BsLinkedin></a>, 
+  linkdn: <a href={"https://www.linkedin.com/in/jorge-quintana-llitrá-00b66017b"} target="_blank" rel="noreferrer"><BsLinkedin className='w-[20px] h-[20px]'></BsLinkedin></a>, 
   icon: <MdOutlinePersonOutline key={0} className='w-[100px] h-full inline-block' ></MdOutlinePersonOutline> 
 },{
   id: 1,
