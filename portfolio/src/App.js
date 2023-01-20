@@ -16,7 +16,7 @@ import proceduralv from './videos/procedural.mkv'
 import rpgv from './videos/rpg.mp4'
 import dhv from './videos/dh.mov'
 import cven from './cvs/CVEnglish.pdf'
-import cves from './cvs/CVEspañol.pdf' 
+import cves from './cvs/CVEspanol.pdf' 
 import React from 'react'; 
 
 const data = [{
@@ -33,6 +33,13 @@ const data = [{
   icon: <MdOutlinePersonOutline key={0} className='w-[100px] h-full inline-block' ></MdOutlinePersonOutline> 
 },{
   id: 1,
+  title:"Dimensional Hike",
+  text: "Proyecto en el que actualmente estoy trabajando. Se trata de un juego en 2D y 3D en el que tendrás que ir resolviendo puzzles y pasar entre distintos obstáculos. Mi trabajo consiste en " +
+  " desarrollar toda la programación del juego en base a lo que ya he aprendido en los cursos y mi propia formación personal.",
+  img: dh,
+  video: dhv
+},{
+  id: 2,
   title:"Pong Online",
   text: "Este es mi primer projecto para aprender a gestionar el multijugador en LAN en Unity. En él, aprendí a gestionar las herramientas" +
   " que te ofrece Unity para el desarrollo del online ('Unity Netcode', 'Networking', 'Lobby', 'Relay'...). Quise recrear un juego sencillo "+
@@ -40,40 +47,33 @@ const data = [{
   img: pongi,
   video: pongv
 },{
-  id: 2,
+  id: 3,
   title:"Fall Guys Character Controller",
   text: "Proyecto en el cual recreé las mecánicas principales de Fall Guys. También fue la primera vez que animé un personaje y cambié el modelado" +
   " de uno ya existente. Mecánicas: Doble salto hacia adelante, agarrar a un personaje, cámara 3D circular, diferentes tipos de trampas...",
   img: fguys,
   video: fallguys
 },{
-  id: 3,
+  id: 4,
   title:"Procedural Map",
   text: "En esta parte de la formación, he diseñado diferentes habitaciones que se conectaban entre sí por los cuatro lados. Luego añadí una serie de reglas que hacen que se cree un mapa " +
   "diferente para cada nivel, pudiendo cambiar los porcentajes de aparición de cada tipo de habitación. Todo esto me sirvió para aprender las bases necesarias y construir así un mapa procedural.",
   img: procedural,
   video: proceduralv
 },{
-  id: 4,
+  id: 5,
   title:"Unity Dialogue & Quests: Intermediate C# Game Coding",
   text: "Curso certificado donde aprendí a hacer Scriptables Objects, crear una ventana totalmente desde 0 en Unity (en este caso para hacer díalogos)," +
   " programar un inventario con drag and drop, crear un sistema de guardado dinámico serializable y muy fácilmente extensible. ",
   img: dialogue,
   video: dialoguev
 },{
-  id: 5,
+  id: 6,
   title:"Create an RPG Game in Unity",
   text: "En este último curso aprendí a crear un juego entero de RPG. Durante el curso, he utilizado modelados de contenido descargable y ello me ayudó a organizar el proyecto y " +
   "programar sus funcionalidades. Aprendía a diseñar un nivel con terreno, a tener en cuenta el rendimiento de la iluminación, al sistema de combate de un RPG, etc.",
   img: rpg,
   video: rpgv
-},{
-  id: 6,
-  title:"Dimensional Hike",
-  text: "Proyecto en el que actualmente estoy trabajando. Se trata de un juego en 2D y 3D en el que tendrás que ir resolviendo puzzles y pasar entre distintos obstáculos. Mi trabajo consiste en " +
-  " desarrollar toda la programación del juego en base a lo que ya he aprendido en los cursos y mi propia formación personal.",
-  img: dh,
-  video: dhv
 }];
    
 function App() {
