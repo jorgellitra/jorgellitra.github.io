@@ -6,18 +6,20 @@ import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import pongi from '../img/pong.png' 
+import pongv from '../videos/pong.mp4'
 import yo from '../img/yo.jpg' 
 import procedural from '../img/procedural.png'
+import proceduralv from '../videos/procedural.mp4'
 import fguys from '../img/fguys.png'
-import dialogue from '../img/dialogue.png'
+import fallguys from '../videos/fallguys.mp4'
 import dh from '../img/dh.png'
+import dhv from '../videos/dh.mp4'
+import dialogue from '../img/dialogue.png'
+import dialoguev from '../videos/dialogue.mp4'
 import rpg from '../img/rpg.png'
-import pongv from '../videos/pong.mkv'
-import dialoguev from '../videos/dialogue.mov'
-import fallguys from '../videos/fallguys.mkv'
-import proceduralv from '../videos/procedural.mkv'
 import rpgv from '../videos/rpg.mp4'
-import dhv from '../videos/dh.mov'
+import buildingi from '../img/building.png'
+import buildingv from '../videos/building.mp4'
 import cven from '../cvs/CVEnglish.pdf'
 import cves from '../cvs/CVEspanol.pdf' 
 
@@ -42,6 +44,14 @@ const data = [{
     video: dhv
   },{
     id: 2,
+    titleES:"Building System",
+    titleEN:"Building System",
+    ES: "Proyecto en el cual construí unas mecánicas de construcción inspiradas en el famoso juego de supervivencia Valheim. Diseñé 3 tipos de estructuras; Muro, Suelo y Escalera. Luego, le añadí a cada estructura las posiciones relativas que quería que tuviera con respecto a las demás, teniendo en cuenta su rotación. Por último, le agregúe un sistema de particulas para cuando destruyes un objeto, unas texturas y edificios para mejorar la ambientación.",
+    EN: "Project in which I built some construction mechanics inspired by the famous survival game Valheim. I designed 3 types of structures; Wall, Floor and Ladder. Then, I added to each structure the relative positions I wanted it to have with respect to the others, taking into account its rotation. Finally, I added a particle system for when you destroy an object, some textures and buildings to improve the atmosphere.",
+    img: buildingi,
+    video: buildingv
+  },{
+    id: 3,
     titleES:"Pong Online",
     titleEN:"Pong Online",
     ES: "Este es mi primer projecto para aprender a gestionar el multijugador en LAN en Unity. En él, aprendí a gestionar las herramientas que te ofrece Unity para el desarrollo del online ('Unity Netcode', 'Networking', 'Lobby', 'Relay'...). Quise recrear un juego sencillo donde pudiera ofrecer una experiencia en LAN teniendo a uno de los usuarios como Host.",
@@ -49,7 +59,7 @@ const data = [{
     img: pongi,
     video: pongv
   },{
-    id: 3,
+    id: 4,
     titleES:"Fall Guys Character Controller",
     titleEN:"Fall Guys Character Controller",
     ES: "Proyecto en el cual recreé las mecánicas principales de Fall Guys. También fue la primera vez que animé un personaje y cambié el modelado de uno ya existente. Mecánicas: Doble salto hacia adelante, agarrar a un personaje, cámara 3D circular, diferentes tipos de trampas...",
@@ -57,7 +67,7 @@ const data = [{
     img: fguys,
     video: fallguys
   },{
-    id: 4,
+    id: 5,
     titleES:"Procedural Map",
     titleEN:"Procedural Map",
     ES: "En esta parte de la formación, he diseñado diferentes habitaciones que se conectaban entre sí por los cuatro lados. Luego añadí una serie de reglas que hacen que se cree un mapa diferente para cada nivel, pudiendo cambiar los porcentajes de aparición de cada tipo de habitación. Todo esto me sirvió para aprender las bases necesarias y construir así un mapa procedural.",
@@ -65,7 +75,7 @@ const data = [{
     img: procedural,
     video: proceduralv
   },{
-    id: 5,
+    id: 6,
     titleES:"Unity Dialogue & Quests: Intermediate C# Game Coding",
     titleEN:"Unity Dialogue & Quests: Intermediate C# Game Coding",
     ES: "Curso certificado donde aprendí a hacer Scriptables Objects, crear una ventana en Unity totalmente desde 0 (en este caso para hacer díalogos), programar un inventario con drag and drop, crear un sistema de guardado dinámico serializable y muy fácilmente extensible. ",
@@ -73,7 +83,7 @@ const data = [{
     img: dialogue,
     video: dialoguev
   },{
-    id: 6,
+    id: 7,
     titleES:"Create an RPG Game in Unity",
     titleEN:"Create an RPG Game in Unity",
     ES: "En este último curso aprendí a crear un juego entero de RPG. Durante el curso, he utilizado modelados de contenido descargable y ello me ayudó a organizar el proyecto y programar sus funcionalidades. Aprendía a diseñar un nivel con terreno, a tener en cuenta el rendimiento de la iluminación, al sistema de combate de un RPG, etc.",
