@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9afd044.css",
-    "main.js": "/static/js/main.a448b9d0.js",
+    "main.css": "/static/css/main.0183c12b.css",
+    "main.js": "/static/js/main.47e7cd26.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/dialogue.mov": "/static/media/dialogue.baaab1e264bc95b1117e.mov",
-    "static/media/dh.mov": "/static/media/dh.223b424229ee3696a49f.mov",
+    "static/media/building.mp4": "/static/media/building.4de14575f5b772e52e46.mp4",
     "static/media/rpg.mp4": "/static/media/rpg.2f9e8919bf4abbc0f050.mp4",
-    "static/media/fallguys.mkv": "/static/media/fallguys.ec55631b06043de7b3f9.mkv",
+    "static/media/dialogue.mp4": "/static/media/dialogue.b4ae314a5b5ef45a5fa6.mp4",
+    "static/media/dh.mp4": "/static/media/dh.d7950b1f28f330a2c4ad.mp4",
+    "static/media/fallguys.mp4": "/static/media/fallguys.884bc0513a723c6a1e88.mp4",
     "static/media/rpg.png": "/static/media/rpg.d43597493b17a4d10f33.png",
-    "static/media/pong.mkv": "/static/media/pong.af0853c516232193de01.mkv",
+    "static/media/building.png": "/static/media/building.7281b3962f4585e1be4a.png",
+    "static/media/pong.mp4": "/static/media/pong.0623d874f721c4cf68d2.mp4",
     "static/media/dialogue.png": "/static/media/dialogue.c45b62d226031a1a9298.png",
     "static/media/dh.png": "/static/media/dh.f94af35b0f085f4ed479.png",
-    "static/media/procedural.mkv": "/static/media/procedural.71ad3c84ae7e470da4f5.mkv",
+    "static/media/procedural.mp4": "/static/media/procedural.a573a98adf35c9a9d349.mp4",
     "static/media/fguys.png": "/static/media/fguys.1a55adc983642e5d364a.png",
     "static/media/CVEspanol.pdf": "/static/media/CVEspanol.56df45ea242d54f78b8d.pdf",
     "static/media/CVEnglish.pdf": "/static/media/CVEnglish.c9dc1c4fcb58b99ddcca.pdf",
@@ -20,12 +22,12 @@
     "static/media/procedural.png": "/static/media/procedural.010a0c43160f52917e1c.png",
     "static/media/yo.jpg": "/static/media/yo.51f321d4e4f2f90590c7.jpg",
     "index.html": "/index.html",
-    "main.a9afd044.css.map": "/static/css/main.a9afd044.css.map",
-    "main.a448b9d0.js.map": "/static/js/main.a448b9d0.js.map",
+    "main.0183c12b.css.map": "/static/css/main.0183c12b.css.map",
+    "main.47e7cd26.js.map": "/static/js/main.47e7cd26.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9afd044.css",
-    "static/js/main.a448b9d0.js"
+    "static/css/main.0183c12b.css",
+    "static/js/main.47e7cd26.js"
   ]
 }
