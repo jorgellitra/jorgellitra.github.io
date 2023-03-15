@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0183c12b.css",
-    "main.js": "/static/js/main.47e7cd26.js",
+    "main.js": "/static/js/main.7379a1b7.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/building.mp4": "/static/media/building.4de14575f5b772e52e46.mp4",
     "static/media/rpg.mp4": "/static/media/rpg.2f9e8919bf4abbc0f050.mp4",
@@ -15,19 +15,19 @@
     "static/media/dh.png": "/static/media/dh.f94af35b0f085f4ed479.png",
     "static/media/procedural.mp4": "/static/media/procedural.a573a98adf35c9a9d349.mp4",
     "static/media/fguys.png": "/static/media/fguys.1a55adc983642e5d364a.png",
-    "static/media/CVEspanol.pdf": "/static/media/CVEspanol.56df45ea242d54f78b8d.pdf",
-    "static/media/CVEnglish.pdf": "/static/media/CVEnglish.c9dc1c4fcb58b99ddcca.pdf",
+    "static/media/CVEspanol.pdf": "/static/media/CVEspanol.36c38ac25fe5caa098da.pdf",
     "static/media/bg.jpg": "/static/media/bg.09237b6757135ba054a0.jpg",
     "static/media/pong.png": "/static/media/pong.3ab60ce9dd6e8902c54b.png",
+    "static/media/CVEnglish.pdf": "/static/media/CVEnglish.d654ee9c24799e380ff5.pdf",
     "static/media/procedural.png": "/static/media/procedural.010a0c43160f52917e1c.png",
     "static/media/yo.jpg": "/static/media/yo.51f321d4e4f2f90590c7.jpg",
     "index.html": "/index.html",
     "main.0183c12b.css.map": "/static/css/main.0183c12b.css.map",
-    "main.47e7cd26.js.map": "/static/js/main.47e7cd26.js.map",
+    "main.7379a1b7.js.map": "/static/js/main.7379a1b7.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0183c12b.css",
-    "static/js/main.47e7cd26.js"
+    "static/js/main.7379a1b7.js"
   ]
 }
