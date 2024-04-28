@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { 
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  color: #2e313a;
+  margin-top: 0px;
+  background: url('./img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  letter-spacing: 0.003em;
+}
+
+.mini .carousel__slider-tray--horizontal { 
+  width: 100% !important; 
+}
+
+.carousel__dot img {
+  filter: grayscale(100%);
+} 
+
+.carousel__dot img:hover {
+  filter: grayscale(0%);
+} 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
+
+.slider-container {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-self: baseline;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+
+.dot-button {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border-radius: 0.5rem;
+  --tw-scale-x: 0.75;
+  --tw-scale-y: 0.75;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  width: 150px;
+  height: 100px; 
+  vertical-align: bottom;
+}
+
+.container-media {
+  display: flex; 
+  justify-content: center;
+}
