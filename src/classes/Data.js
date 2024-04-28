@@ -41,7 +41,6 @@ import pr11v from '../videos/tokioschool/pr11v.mp4'
 import pr12i from '../img/tokioschool/pr12i.png'
 import pr12v from '../videos/tokioschool/pr12v.mp4'
 import tfmi from '../img/tokioschool/tfmi.png'
-import tfmv from '../videos/tokioschool/tfmv.mp4'
 import tfmf from '../files/TFM.pdf'  
 
 import {MdOutlinePersonOutline} from 'react-icons/md';
