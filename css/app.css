@@ -64,17 +64,6 @@ code {
     justify-content: space-between;
 }
 
-.card-video {
-    aspect-ratio: 16 / 9;
-    position: relative;
-    width: 100%;
-    display: inline-flex;
-    background-color: rgb(37, 37, 37);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    overflow: hidden;
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: rgb(182, 217, 214);
 }
@@ -101,8 +90,101 @@ h1, h2, h3, h4, h5, h6 {
 
 .education-card {
     height: 120px;
+    width: 100%;
+    display: flex !important;
 }
 
 .linkedin-icon > span {
     padding: 13px !important;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+}
+
+.card-video {
+    aspect-ratio: 4 / 3;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(37, 37, 37);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.card-content {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card-actions {
+    padding: 0px !important;
+    width: 100%;
+    justify-content: end;
+}
+
+.card-actions-button {
+    padding: 0px !important;
+}
+
+.video-additional-info {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 10px 24px;
+    margin-left: -16px;
+    margin-right: -32px;
+    margin-bottom: -52px;
+    left: -8px;
+    background-color: rgba(30, 30, 30, .8);
+    top: -44px;
+    font-size: .875rem;
+}
+
+.video-additional-info-solo {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 10px 24px;
+    margin-left: -16px;
+    margin-right: -32px;
+    margin-bottom: -180px;
+    left: -8px;
+    background-color: rgba(30, 30, 30, .8);
+    font-size: .875rem;
+}
+
+.big-video {
+    margin-bottom: 200px !important;
+    margin-top: 20px !important;
+}
+
+
+.about {
+    width: 50%;
+    padding: 20px;
+}
+
+.info-project {
+    width: 50%;
+    padding: 20px;
+}
+
+.mud-typography-body2 {
+    font-size: 1.3rem !important;
+}
+
+.mud-typography-body1 {
+    font-size: 1.1rem !important;
+}
+
+.height-250 {
+    height: 300px;
 }
